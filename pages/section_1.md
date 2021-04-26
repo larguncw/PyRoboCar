@@ -51,8 +51,70 @@
     - Enable VNC Server: Choose 5. Interface Options -> VNC -> Enable
     - Download and install RealVNC Viewer onto your PC
     - Connect to Pi’s IP address using Real VNC Viewer
-
-
-
-
+      - Enter the Pi’s username and password (User = pi   Password = pi)
+      - You will see the same desktop as the one Pi is running
+    - Disconnect the monitor/keyboard/mouse from the Pi computer, leaving just the power adapter plugged in
+   * **Setup Remote File Access**
+     - In the Raspbian terminal run:
+       - sudo apt-get update && sudo apt-get upgrade -y
+       - sudo apt-get install samba samba-common-bin -y
+         - Select “yes” when queried
+       - sudo rm /etc/samba/smb.conf
+       - sudo nano /etc/samba/smb.conf
+     - Then paste the following lines into the nano editor:
+       - [global]
+       - netbios name = Pi
+       - server string = The PiCar File System
+       - workgroup = WORKGROUP
+       - [HOMEPI]
+       - path = /home/pi
+       - comment = No comment
+       - browsable = yes
+       - writable = Yes
+       - create mask = 0777
+       - directory mask = 0777
+       - public = no
+     - Save and exit nano by Ctrl-X, and Yes to save changes
+     - Set the Samba Server password to pi.  After the password is set, restart the Samba server
+       - # create samba password
+       - pi@raspberrypi:~ $ sudo smbpasswd -a pi
+       - New SMB password:
+       - Retype new SMB password:
+       - Added user pi.# restart samba server
+       - pi@raspberrypi:~ $ sudo service smbd restart
+       - *** New password may not appear when typing in***
+     - At this point, you should be able to connect to the Pi computer from your PC via Pi’s IP address (My Pi’s IP is 192.168.1.120). Go to your PC (Windows), open a Command Prompt (cmd.exe) and type:
+       - net use r: \\192.168.1.120\homepi
+       - r:
+       - dir r:
+     - We can now access the Raspberry Pi’s file system from our PC’s file manager
+       - Note: If you have a mac this will be different.  Use the guide here: https://towardsdatascience.com/deeppicar-part-2-8512be2133f3
+  * **Install USB Camera**
+     - Take the USB Camera out of PiCar kit and plug into Pi computer’s USB port.
+       - The device driver for the USB camera should already come with Raspian OS.
+     - Run sudo apt-get install cheese from the terminal to install “Cheese”, the camera viewer. Yes
+     - Launch Cheese app by clicking on the Raspberry Pi button(Top Left Corner)-> Sound & Video -> Cheese
+       - You should see a live video feed displayed.
+  * **SunFounder PiCar-V Software Configuration (Deviations from the manual)**
+     - alias python=python3
+     - alias pip=pip3
+     - alias sudo='sudo '
+     - cd
+     - git clone https://github.com/dctian/SunFounder_PiCar.git
+     - cd ~/SunFounder_PiCar/picar/
+     - git clone https://github.com/dctian/SunFounder_PCA9685.git
+     - cd ~/SunFounder_PiCar/
+     - sudo python setup.py install
+     - cd
+     - git clone https://github.com/dctian/SunFounder_PiCar-V.git
+     - cd SunFounder_PiCar-V
+     - sudo ./install_dependencies
+  * **PyCar Wheel Test**
+     - pi@raspberrypi:~/SunFounder_PiCar/picar $ python3
+     - import picar
+     - picar.setup()
+     - picar.front_wheels.test()
+       - You should see the front wheels progressively turn left and right at different angles.
+     - picar.back_wheels.test()
+       - You should see the back wheels accelerate forward and then backwards.
 
