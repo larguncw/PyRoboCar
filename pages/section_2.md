@@ -34,5 +34,25 @@
       - pip3 install keras==2.3.1
   * **Installing Edge TPU Drivers**
      - cd
-     - wget
+     - wget https://dl.google.com/coral/edgetpu_api/edgetpu_api_latest.tar.gz -O edgetpu_api.tar.gz --trust-server-names
+     - tar xzf edgetpu_api.tar.gz
+     - cd edgetpu_api/
+     - sudo su root
+     - sudo bash ./install.sh
+       - You will get an error here if you are using a Raspberry Pi 4. This is the fix:
+         - sudo nano install.sh
+         - Add the Raspberry Pi 4 support at line 59:
+         - elif [[ "${MODEL}" == "Raspberry Pi 4 Model B Rev"* ]];
+         - info "Recognized as Raspberry Pi 4 B."
+         - LIBEDGETPU_SUFFIX=arm32
+         - HOST_GNU_TYPE=arm-linux-gnueabihf
+         - Ctrl + X to exit. Save the changes.
+     - sudo bash ./install.sh
+       - Would you like to enable the maximum operating frequency?
+       - Y
+     - sudo reboot now
+  * **Run Live Object Detection**
+     - cd ~/DeepPiCar/models/object_detection/
+     - python3 code/coco_object_detection.py
+       - Should see object detection
 
