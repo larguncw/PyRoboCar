@@ -35,5 +35,23 @@
         - Copy/paste the modified code snippets (i.e. modified mask arrays) into the correct sections of hand_coded_lane_follower.py
         - Type :wq
         - We will run DeepPiCar.py, which uses the hand_coded_lane_follower.py
-  
+  * **Running the DeepPiCar**
+    - If you are using Raspberry Pi 4, your hardware is not recognized/supported by SunFounder’s code, so follow there instruction here and add your Raspberry Pi version to the SunFounder’s code in PCA9685.py:
+      -  This file could be in different places, please do a search:
+         - find home/pi/* -name ‘PCA9685.py’
+       - Add this line of to the supported Raspberry Pi versions in all the PCA9685.py:
+         - RPI_REVISION_4_MODULE_B = ["c03111",”c03112”]
+    - There is one bug that set the move direction to backward, to fix it:
+      - The problem with the picar moving backwards when the deep_pi_car.py initiates was solved
+        - The line ‘self.back_wheels.forward()’ was added at line 100 in the drive() function
+        - The deep_pi_car.py was apparently defaulting to moving backwards in the absence of code dictating its direction.
+        - Looking at the test() function in the back_wheels.py script, the picar’s wheels were directed to move forward before the wheels were given a speed
+    - Set your PiCar on your track
+    - Run the DeepPiCar_Code on your Raspberry Pi
+      - The car should follow the lines
+      - Move to the correct directory (if not already there): cd ~/DeepPiCar/driver/code
+      - Type python3 DeepPiCar.py
+      - Two screens should appear.  One is for object detection, one is for general viewing.
+      - Once the picar completes the designated track, type CTRL-C on the command line to stop the DeepPiCar.py.
+     
 
