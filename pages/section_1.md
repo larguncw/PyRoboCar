@@ -19,10 +19,13 @@
       - Download the Raspberry Pi Imager for your respective OS (Windows, MacOS, Ubuntu)
       - ![](images/sec1image1.PNG)
       - Download the Raspberry Pi 4, Buster, Edgetpu 2.11.1 Raspberry Pi OS from https://github.com/google-coral/edgetpu-platforms
+      - ![](images/sec1image2.PNG)
       - Run the Raspberry Pi imager and select “Use Custom” from the “Choose OS” dropdown menu
       - Select the Raspberry Pi 4, Buster, Edgetpu 2.11.1 OS as your custom OS
+      - ![](images/sec1image3.PNG)
       - Next insert your SD card into the microSD reader and input it into your PC’s USB port
       - Choose the SD card from the “Choose SD” dropdown menu
+      - ![](images/sec1image4.PNG)
       - Click “Write” on the Raspberry Pi Imager
     - Install OS on Raspberry Pi
       - Insert the microSD into the Raspberry Pi
@@ -34,9 +37,11 @@
       - In order to update software, you must connect the Pi to the internet.
       - First, update the device date/time by opening up the terminal and entering the following code with an updated date & time:
         - sudo date +%Y%m%d -s “20200912 10:00:00”
+        - ![](images/sec1image5.PNG)
       - We must also expand the file system
       - Run raspi-config
       - Go to Advanced Settings
+      - ![](images/sec1image6.PNG)
       - Select option 1 to expand file system
       - Reboot and run df -h in terminal
     - Now connect to your internet provider and accept the software update
@@ -44,15 +49,20 @@
       - sudo apt update
       - sudo apt full-upgrade
     - If you run into issue related to insufficient file system space, go to the Expand File System section.
+    - End result below
+    - ![](images/sec1image7.PNG)
   * **Setup Remote Access**
     - Open the Terminal application
     - Run ifconfig in the terminal to find the Raspberry Pi’s IP address
     - Run sudo raspi-config in Terminal to start the “Raspberry Pi Software Configuration Tool”. You may be prompted to type in the password for user pi
+    - ![](images/sec1image8.PNG)
     - Enable SSH Server: Choose 5. Interface Options -> SSH -> Enable
     - Enable VNC Server: Choose 5. Interface Options -> VNC -> Enable
     - Download and install RealVNC Viewer onto your PC
     - Connect to Pi’s IP address using Real VNC Viewer
+    - ![](images/sec1image9.PNG)
       - Enter the Pi’s username and password (User = pi   Password = pi)
+      - ![](images/sec1image10.PNG)
       - You will see the same desktop as the one Pi is running
     - Disconnect the monitor/keyboard/mouse from the Pi computer, leaving just the power adapter plugged in
    * **Setup Remote File Access**
@@ -75,6 +85,7 @@
        - create mask = 0777
        - directory mask = 0777
        - public = no
+       - ![](images/sec1image11.PNG)
      - Save and exit nano by Ctrl-X, and Yes to save changes
      - Set the Samba Server password to pi.  After the password is set, restart the Samba server
        - # create samba password
