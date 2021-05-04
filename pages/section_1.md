@@ -13,10 +13,11 @@
     - Use the base operating system image from the following repository: https://github.com/google-coral/edgetpu-platforms. The image is labelled as “Raspberry Pi 4, Buster, Edgetpu 2.11.1”.
     - Follow this guide: https://www.youtube.com/watch?v=BpJCAafw2qE
     - Don’t forget to add the heat sinks!
-  * **Raspberry Pi Hardware Setup**
+  * **Rasbian OS Install**
     - Install the NOOBS Raspbian Operating System (a variate of Linux) onto a micro SD card using the CanaKit Raspberry Pi 4 Quick-Start Guide included in your kit
       - We want to use a custom OS, so go to this page: https://www.raspberrypi.org/downloads/4
       - Download the Raspberry Pi Imager for your respective OS (Windows, MacOS, Ubuntu)
+      - ![](images/sec1image1.PNG)
       - Download the Raspberry Pi 4, Buster, Edgetpu 2.11.1 Raspberry Pi OS from https://github.com/google-coral/edgetpu-platforms
       - Run the Raspberry Pi imager and select “Use Custom” from the “Choose OS” dropdown menu
       - Select the Raspberry Pi 4, Buster, Edgetpu 2.11.1 OS as your custom OS
