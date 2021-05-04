@@ -9,9 +9,10 @@
            - You will see an open, empty vi file
         - Copy all the Python script in the above link by highlighting it and using point/click.
         - Move to the open vi file and paste the contents of the script into the vi file with point/click.  Afterwards, the file will look like the below.
-        - 
+        - ![](images/sec3image1.PNG)
         - Type :wq anywhere on the screen to write (save) the above file and quit (: is a special character that prompts an action command line).
       - Run the script with the following command: “python3 record-video.py”
+      - ![](images/sec3image2.PNG)
         - The video will begin recording.  You should see a video screen pop up that shows the recording in real time.
       - Interrupt the Bash prompt by pressing CTRL-C when you are finished.
         - Or, press “q” to stop this program
@@ -22,13 +23,17 @@
       - You can save it as a .py file.
     - Move your video from the Raspberry Pi to your PC, and put the DeepPiCar_Code and the .avi video into the same folder.
     - Open the code and rename the string in the very last line to match the name of your video (e.g. mine is named “Long_Red_Track_1”)
+    - ![](images/sec3image3.PNG)
     - Run the code
       - Your video should pop up in two new windows.  One window should show steering angle line overlays (hopefully) following the lane lines.  The other video should show the edges of your color mask
       - If the steering angle lines do not follow the lane lines (e.g. they are spastic and jump all over the screen) then most likely we need to tune your color mask to your particular track
       - Color tuning
         - Adjust the numerical HSV mask values in the arrays in the below code block
+        - ![](images/sec3image4.PNG)
         - Note that there are 2 masks used because our red tape contains hues in both the 0-10 range and 170-180 range.  If you are not using red tape (or if your lighting is different) you may only need one mask
+        - ![](images/sec3image5.PNG)
         - Use the feed displaying the edges of your color mask to determine how well your color mask is isolating your lane lines.  Mine looks like this:
+        - ![](images/sec3image6.PNG)
       - Once you’ve tuned your color mask values and gotten acceptable steering angles you will need to save the changes to DeepPiCar.py on the Raspberry Pi
         - Move to the correct directory (if not already there): cd ~/DeepPiCar/driver/code
         - Type vi hand_coded_lane_follower.py
