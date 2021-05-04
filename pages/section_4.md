@@ -20,9 +20,11 @@
   * **Running the end-to-end deep learning lane navigation notebook**
     - You must first mount your Google Drive to Colab before you can access your Drive directory
     - Run this block of code
+    - ![](images/sec4image1.PNG)
       - Note: you should have modified the directory to match yours
       - You will be queried to enter an authentication code
       - Click the link seen below and select the Google Drive account you want to link your Colab to
+      - ![](images/sec4image2.PNG)
       - Once you’ve entered your Google Drive info input the given authentication code into the input bar in Colab
       - Your Google Drive should now be linked to Colab
     - You can now run all of Google Colab’s code blocks similarly to a Jupyter Notebook
@@ -50,6 +52,7 @@
        - This should output 2.3.0.
        - For future reference, if you want a version of Tensorflow different from 2.3, you can view and download releases here: https://github.com/lhelontra/tensorflow-on-arm/releases
      - Next run this Python code on the PiCar: 
+     - ![](images/sec4image3.PNG)
 
 
 
