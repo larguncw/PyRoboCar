@@ -19,6 +19,8 @@
        - cd DeepPiCar/driver/code
        - python3 opencv_test.py
      - Here you should see output from your PiCar camera
+     - ![](images/sec2image1.PNG)
+
  * **Installing TensorFlow**
      - cd
      - pip3 install setuptools --upgrade
@@ -46,7 +48,8 @@
          - info "Recognized as Raspberry Pi 4 B."
          - LIBEDGETPU_SUFFIX=arm32
          - HOST_GNU_TYPE=arm-linux-gnueabihf
-         - Ctrl + X to exit. Save the changes.
+         - Ctrl + X to exit. Save the changes. The new version of install.sh should be:
+         - ![](images/sec2image2.PNG)
      - sudo bash ./install.sh
        - Would you like to enable the maximum operating frequency?
        - Y
@@ -54,5 +57,6 @@
   * **Run Live Object Detection**
      - cd ~/DeepPiCar/models/object_detection/
      - python3 code/coco_object_detection.py
-       - Should see object detection
+     - ![](images/sec2image3.PNG)
+      
 
