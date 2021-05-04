@@ -88,7 +88,7 @@
        - ![](images/sec1image11.PNG)
      - Save and exit nano by Ctrl-X, and Yes to save changes
      - Set the Samba Server password to pi.  After the password is set, restart the Samba server
-       - # create samba password
+       - ## create samba password
        - pi@raspberrypi:~ $ sudo smbpasswd -a pi
        - New SMB password:
        - Retype new SMB password:
