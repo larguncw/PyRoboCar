@@ -1,6 +1,6 @@
 ## PyRoboCar Project Page
 
-![](images/PiCar.jpeg)
+<img src="https://https://github.com/larguncw/PyRoboCar/blob/main/pages/images/PiCar.jpeg" width="1000"/>
 
 <a href="https://larguncw.github.io/PyRoboCar/pages/section_1">Section 1</a>
 
