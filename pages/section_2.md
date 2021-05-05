@@ -67,7 +67,6 @@
  -webkit-border-radius: 5px;
  border-radius: 6px;
  color: #fff;
- font-family: 'Oswald';
  font-size: 20px;
  text-decoration: none;
  border: none;
