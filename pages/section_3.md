@@ -61,7 +61,7 @@
   
   <style type="text/css">
 #submit {
- background-color: #00FFFF;
+ background-color: #008080;
  padding: .5em;
  -moz-border-radius: 5px;
  -webkit-border-radius: 5px;
