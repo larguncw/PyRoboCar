@@ -129,4 +129,7 @@
        - You should see the front wheels progressively turn left and right at different angles.
      - picar.back_wheels.test()
        - You should see the back wheels accelerate forward and then backwards.
+<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
 
