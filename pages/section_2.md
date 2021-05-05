@@ -68,7 +68,6 @@
  border-radius: 6px;
  color: #fff;
  font-size: 20px;
- text-align:right;
  text-decoration: none;
  border: none;
 }
