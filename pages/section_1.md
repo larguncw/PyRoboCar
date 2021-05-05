@@ -132,4 +132,7 @@
 <form>
  <input type="button" value="Homepage" onclick="https://larguncw.github.io/PyRoboCar/">
 </form>
+<form>
+ <input type="button" value="Section 2" onclick="https://larguncw.github.io/PyRoboCar/pages/section_2">
+</form>
 
