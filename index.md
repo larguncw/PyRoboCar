@@ -1,6 +1,6 @@
 ## PyRoboCar Project Page
 
-<img src="https://larguncw.github.io/PyRoboCar/pages/images/PiCar.jpeg" width="100"/>
+<img src="https://larguncw.github.io/PyRoboCar/pages/images/PiCar.jpeg" width="250" align = 'right'/>
 
 <a href="https://larguncw.github.io/PyRoboCar/pages/section_1">Section 1</a>
 
