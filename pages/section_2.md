@@ -79,12 +79,37 @@
 }
 </style>
 
+#row1 {padding: 20px 20px 5px 20px;
+           overflow: hidden; }
+
+.button-container {display: block; text-align: center;}
+
+.button-left {
+    padding: 0 5px;
+    text-align: center;
+    border: 1px solid;
+    float: left;
+    font-size: 75%; }
+
+.button-right {
+    padding: 0 5px;
+    text-align: center;
+    border: 1px solid;
+    float: right;
+    font-size: 75%; }
+
+.button-centre {
+    padding: 0 5px;
+    text-align: center;
+    border: 1px solid;
+    font-size: 75%; }
+
 <form>
 <input id='submit' style='position: absolute; left:0;'type="BUTTON" value="Section 1" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_1'">
 </form>
 
 <form>
-<input id='submit' style='position: absolute; center:0;' type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
+<input id='submit' class="button-centre" type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
 </form>
 
 <form>
