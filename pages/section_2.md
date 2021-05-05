@@ -81,10 +81,14 @@
 
 
 <form>
-<input id='submit' style="margin:left;display:block" type="BUTTON" value="Section 1" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_1'">
-</form><form>
-<input id='submit' style="margin:auto;display:block" type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
-</form><form>
-<input id='submit' style="margin:right;display:block" type="BUTTON" value="Section 3" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_3'">
+<input id='submit' type="BUTTON" value="Section 1" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_1'">
+</form>
+
+<form>
+<input id='submit' style="position: relative; left: 375px; bottom: 45px;" type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
+</form>
+
+<form>
+<input id='submit' style="position: relative; left: 750px; bottom: 90px;" type="BUTTON" value="Section 3" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_3'">
 </form>
 
