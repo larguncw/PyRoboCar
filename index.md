@@ -1,9 +1,10 @@
 ## PyRoboCar Project Page
 
-<a href="https://github.com/larguncw/PyRoboCar/blob/main/pages/section_1.md">Section 1</a>
+<a href="https://larguncw.github.io/PyRoboCar/pages/section_1">Section 1</a>
 
-<a href="https://github.com/larguncw/PyRoboCar/blob/main/pages/section_2.md">Section 2</a>
+<a href="https://larguncw.github.io/PyRoboCar/pages/section_2">Section 2</a>
 
-<a href="https://github.com/larguncw/PyRoboCar/blob/main/pages/section_3.md">Section 3</a>
+<a href="https://larguncw.github.io/PyRoboCar/pages/section_3">Section 3</a>
 
-<a href="https://github.com/larguncw/PyRoboCar/blob/main/pages/section_4.md">Section 4</a>
+<a href="https://larguncw.github.io/PyRoboCar/pages/section_4">Section 4</a>
+
