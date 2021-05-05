@@ -130,9 +130,9 @@
      - picar.back_wheels.test()
        - You should see the back wheels accelerate forward and then backwards.
 <form>
- <input type="button" value="Homepage" onclick="https://larguncw.github.io/PyRoboCar/">
+<input type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
 </form>
 <form>
- <input type="button" value="Section 2" onclick="https://larguncw.github.io/PyRoboCar/pages/section_2">
+<input type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_2'">
 </form>
 
