@@ -58,15 +58,35 @@
      - cd ~/DeepPiCar/models/object_detection/
      - python3 code/coco_object_detection.py
      - ![](images/sec2image3.PNG)
-      
+
+<style type="text/css">
+#submit {
+ background-color: #008080;
+ padding: .5em;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border-radius: 6px;
+ color: #fff;
+ font-family: 'Oswald';
+ font-size: 20px;
+ text-decoration: none;
+ border: none;
+}
+#submit:hover {
+ border: none;
+ background: orange;
+ box-shadow: 0px 0px 1px #777;
+}
+</style>
+
 <form>
-<input align='left' type="BUTTON" value="Section 1" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_1'">
+<input id='submit' type="BUTTON" value="Section 1" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_1'">
 </form>
 
 <form>
-<input align='center' type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
+<input id='submit' type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
 </form>
 
 <form>
-<input align='right' type="BUTTON" value="Section 3" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_3'">
+<input id='submit' type="BUTTON" value="Section 3" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_3'">
 </form>
