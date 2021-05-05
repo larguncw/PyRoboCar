@@ -153,6 +153,5 @@
 </form>
 
 <form>
-<input id='submit' type="BUTTON" value="Section 2" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_2'">
+<input id='submit' style="position: relative; left: 750px; bottom: 45px;" type="BUTTON" value="Section 2" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_2'">
 </form>
-
