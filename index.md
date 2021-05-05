@@ -8,3 +8,5 @@
 
 <a href="https://larguncw.github.io/PyRoboCar/pages/section_4">Section 4</a>
 
+<a href="https://larguncw.github.io/PyRoboCar/pages/images">Gallery</a>
+
