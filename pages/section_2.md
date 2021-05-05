@@ -68,6 +68,7 @@
  border-radius: 6px;
  color: #fff;
  font-size: 20px;
+ text-align:center;
  text-decoration: none;
  border: none;
 }
@@ -90,11 +91,3 @@
 <input id='submit' class="btn btn-primary float-right" type="BUTTON" value="Section 3" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_3'">
 </form>
 
-<div class="d-flex justify-content-between">
-  <button type="button" class="btn btn-secondary">Back</button>
-  <div>
-    <button type="button" class="btn btn-danger">Cancel</button>
-    <button type="button" class="btn btn-secondary">Save and Exit</button>
-  </div>
-  <button type="submit" class="btn btn-primary">Next</button>
-</div>
