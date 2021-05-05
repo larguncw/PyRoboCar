@@ -79,9 +79,9 @@
 </form>
 
 <form>
-<input id='submit' style="position: relative; left: 375px; bottom: 45px;" type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
+<input id='submit' style="position: relative; left: 368px; bottom: 45px;" type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
 </form>
 
 <form>
-<input id='submit' style="position: relative; left: 750px; bottom: 95px;" type="BUTTON" value="Gallery" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/gallery'">
+<input id='submit' style="position: relative; left: 750px; bottom: 93px;" type="BUTTON" value="Gallery" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/gallery'">
 </form>
