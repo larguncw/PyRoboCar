@@ -33,22 +33,22 @@ div.desc {
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  <a target="_blank" href="https://github.com/larguncw/PyRoboCar/tree/main/pages/images/sec1image1">
+    <img src="sec1image1.PNG" alt="Forest" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  <a target="_blank" href="https://github.com/larguncw/PyRoboCar/tree/main/pages/images/sec1image1">
+    <img src="sec1image1.PNG" alt="Northern Lights" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  <a target="_blank" href="https://github.com/larguncw/PyRoboCar/tree/main/pages/images/sec1image1">
+    <img src="sec1image1.PNG" alt="Mountains" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
