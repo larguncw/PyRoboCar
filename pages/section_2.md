@@ -79,16 +79,12 @@
 }
 </style>
 
-<div class="text-right">
-  	<button type="button" class="btn btn-primary">right Aligned Button</button>
-</div>
-
 <form>
 <input id='submit' type="BUTTON" value="Section 1" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_1'">
 </form>
 
 <form>
-<input id='submit' style='center' type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
+<input id='submit' style='position: absolute; center:;' type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
 </form>
 
 <form>
