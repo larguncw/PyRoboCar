@@ -133,6 +133,6 @@
 <input type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
 </form>
 <form>
-<input type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_2'">
+<input type="BUTTON" value="Section 2" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/section_2'" align = 'left'>
 </form>
 
