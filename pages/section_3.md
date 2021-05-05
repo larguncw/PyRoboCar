@@ -58,5 +58,25 @@
       - Type python3 DeepPiCar.py
       - Two screens should appear.  One is for object detection, one is for general viewing.
       - Once the picar completes the designated track, type CTRL-C on the command line to stop the DeepPiCar.py.
-     
+  
+  <style type="text/css">
+#submit {
+ background-color: #bbb;
+ padding: .5em;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border-radius: 6px;
+ color: #fff;
+ align: center;
+ font-size: 20px;
+ text-decoration: none;
+ border: none;
+}
+#submit:hover {
+ border: none;
+ background: orange;
+ box-shadow: 0px 0px 1px #777;
+}
+</style>
 
+<button id="submit">Homepage</button>
