@@ -83,5 +83,5 @@
 </form>
 
 <form>
-<input id='submit' style="position: relative; left: 750px; bottom: 90px;" type="BUTTON" value="Gallery" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/gallery'">
+<input id='submit' style="position: relative; left: 750px; bottom: 95px;" type="BUTTON" value="Gallery" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/gallery'">
 </form>
