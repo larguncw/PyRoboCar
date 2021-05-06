@@ -190,5 +190,5 @@ Each can have thumbnail sizes that vary by 1px and are likely break your layout.
 </form>
 
 <form>
-<input id='submit' style="position: relative; left: 750px; bottom: 0px;" type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
+<input id='submit' style="position: relative; left: 750px; bottom: 45px;" type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
 </form>
