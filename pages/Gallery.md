@@ -67,8 +67,8 @@ div.desc {
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_forest.jpg">
-      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    <a target="_blank" href="https://github.com/larguncw/PyRoboCar/blob/main/pages/images/car_on_track.png">
+      <img src="https://github.com/larguncw/PyRoboCar/blob/main/pages/images/car_on_track.png" alt="Forest" width="600" height="400" class="rotateimg90">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
