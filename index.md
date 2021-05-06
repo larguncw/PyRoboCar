@@ -12,3 +12,5 @@
 
 <a href="https://larguncw.github.io/PyRoboCar/pages/Gallery">Gallery</a>
 
+<a href="https://larguncw.github.io/PyRoboCar/pages/VideoGallery">Gallery</a>
+
