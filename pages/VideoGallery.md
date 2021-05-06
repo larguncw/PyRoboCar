@@ -60,12 +60,11 @@ div.desc {
   </div>
 </div>
 
+
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha">
-      <img src="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha" alt="Tracks" width="600" height="400">
+    <iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" frameborder="0" allowfullscreen></iframe>
     </a>
-    <div class="desc">PyRoboCar Labeled Lane Lines</div>
   </div>
 </div>
 
