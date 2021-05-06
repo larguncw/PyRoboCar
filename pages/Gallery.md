@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 <style>
@@ -52,8 +52,7 @@ div.desc {
 </head>
 <body>
 
-<h2>Responsive Image Gallery</h2>
-<h4>Resize the browser window to see the effect.</h4>
+<h2>Image Gallery</h2>
 
 <div class="responsive">
   <div class="gallery">
