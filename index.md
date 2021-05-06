@@ -10,5 +10,5 @@
 
 <a href="https://larguncw.github.io/PyRoboCar/pages/section_4">Section 4</a>
 
-<a href="https://larguncw.github.io/PyRoboCar/pages/Gallery.md">Gallery</a>
+<a href="https://larguncw.github.io/PyRoboCar/pages/Gallery">Gallery</a>
 
