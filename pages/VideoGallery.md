@@ -47,5 +47,5 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </form>
 
 <form>
-<input id='submit' style="position: relative; left: 750px; bottom: 93px;" type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
+<input id='submit' style="position: relative; left: 750px; bottom: 0px;" type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
 </form>
