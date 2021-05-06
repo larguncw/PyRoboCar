@@ -1,9 +1,9 @@
 <article class="video">
   <figure>
-    <a class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/paG__3FBLzI">
+    <a class="fancybox fancybox.iframe" href="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha">
     <img class="videoThumb" src="http://i1.ytimg.com/vi/paG__3FBLzI/mqdefault.jpg"></a>
   </figure>
-  <h2 class="videoTitle">Mesopotamia</h2>
+  <h2 class="videoTitle">Video1</h2>
 </article>
 
 <article class="video">
