@@ -84,12 +84,49 @@ div.desc {
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100403170.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100403170.jpg" alt="Mountains" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
 </div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100952378.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100952378.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200206_101943082.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200206_101943082.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201012_095239980.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201012_095239980.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_095124645.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_095124645.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
 
 <div class="clearfix"></div>
 
