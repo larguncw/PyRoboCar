@@ -184,5 +184,9 @@ div.desc {
 </form>
 
 <form>
-<input id='submit' style="position: relative; left: 750px; bottom: 45px;" type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
+<input id='submit' style="position: relative; left: 368px; bottom: 45px;" type="BUTTON" value="Homepage" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/'">
+</form>
+
+<form>
+<input id='submit' style="position: relative; left: 750px; bottom: 93px;" type="BUTTON" value="Video Gallery" onclick="window.location.href='https://larguncw.github.io/PyRoboCar/pages/VideoGallery'">
 </form>
