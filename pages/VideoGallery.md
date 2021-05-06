@@ -1,3 +1,6 @@
+<html>
+<head>
+
 <?php
 $arr_video_ids = array(
     'https://www.youtube.com/watch?v=Pzv_lUp3iOQ',
@@ -18,6 +21,9 @@ function extractVideoID($url){
     return $video[7];
 }
 ?>
+
+</head>
+<body>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
