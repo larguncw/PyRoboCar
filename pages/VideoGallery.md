@@ -55,15 +55,14 @@ div.desc {
 
 <div class="responsive">
   <div class="gallery">
-    <iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" frameborder="0" allowfullscreen></iframe>
-    </a>
+    <iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" width="600" height="400" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
 
 <div class="responsive">
   <div class="gallery">
-    <iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" width="600" height="400" frameborder="0" allowfullscreen></iframe>
     </a>
   </div>
 </div>
