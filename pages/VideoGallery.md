@@ -1,7 +1,7 @@
 
 <div id="video-gallery">
-  <a href="https://www.youtube.com/watch?v=meBbDqAXago" data-poster="video-poster1.jpg" >
-      <img src="img/thumb1.jpg" />
+  <a href="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha" >
+      <img src="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha" />
   </a>
   ...
 </div>
