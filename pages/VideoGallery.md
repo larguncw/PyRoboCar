@@ -1,160 +1,47 @@
-<html>
-<head>
-<style>
-div.gallery {
-  border: 1px solid #ccc;
+<?php
+$arr_video_ids = array(
+    'https://www.youtube.com/watch?v=Pzv_lUp3iOQ',
+    'https://www.youtube.com/watch?v=zRtU8dpTEXg',
+    'https://www.youtube.com/watch?v=EfSfLyeREMc',
+    'https://www.youtube.com/watch?v=C-nypyy4pLg',
+    'https://www.youtube.com/watch?v=OJpMT3odXtQ',
+    'https://www.youtube.com/watch?v=WBnzOyBVwdg',
+);
+ 
+function getYouTubeThumbnailImage($video_id) {
+    return "http://i3.ytimg.com/vi/$video_id/hqdefault.jpg";
 }
-
-div.gallery:hover {
-  border: 1px solid #777;
+ 
+function extractVideoID($url){
+    $regExp = "/^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/";
+    preg_match($regExp, $url, $video);
+    return $video[7];
 }
+?>
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-</head>
-<body>
-
-<h2>Image Gallery</h2>
-
-<div class="responsive">
-  <div class="gallery">
-    <iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" width="600" height="400" frameborder="0" allowfullscreen></iframe>
-  </div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
+<div class="container">
+    <h3 class="text-center">My Video Gallery</h3>
+    <div class="row">
+        <?php foreach ($arr_video_ids as $video) { ?>
+            <?php
+            $video_id = extractVideoID($video);
+            $video_thumbnail = getYouTubeThumbnailImage($video_id);
+            ?>
+            <div class="col-md-4">
+                <div class="pb-2">
+                    <a data-fancybox="video-gallery" href="<?php echo $video; ?>">
+                        <img src="<?php echo $video_thumbnail; ?>" class="img-thumbnail" />
+                    </a>
+                </div>
+            </div>
+        <?php } ?>
+    </div>
 </div>
-
-
-<div class="responsive">
-  <div class="gallery">
-    <iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" width="600" height="400" frameborder="0" allowfullscreen></iframe>
-    </a>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100403170.jpg">
-      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100403170.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">PyRoboCar Construction</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100952378.jpg">
-      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100952378.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Building the PyRoboCar</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200206_101943082.jpg">
-      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200206_101943082.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Building the PyRoboCar</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201012_095239980.jpg">
-      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201012_095239980.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">The First Labeled Lane Lines</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_095124645.jpg">
-      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_095124645.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Fixing Hardware</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_100222005.jpg">
-      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_100222005.jpg" alt="Tracks" width="600" height="400">
-    </a>
-    <div class="desc">Fixing Labeled Lane Lines</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_101113596.jpg">
-      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_101113596.jpg" alt="Tracks" width="600" height="400">
-    </a>
-    <div class="desc">Gathering Training Data</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/finished car 1.jpg">
-      <img src="https://larguncw.github.io/PyRoboCar/pages/images/finished car 1.jpg" alt="Tracks" width="600" height="400">
-    </a>
-    <div class="desc">Our Finished PyRoboCar with Upgraded Camera</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/car_on_track.png">
-      <img src="https://larguncw.github.io/PyRoboCar/pages/images/car_on_track.png" alt="PyRoboCar on Track" width="600" height="400" class="rotateimg90">
-    </a>
-    <div class="desc">PyRoboCar on the Track</div>
-  </div>
-</div>
-
-
-<div class="clearfix"></div>
-
-
-</body>
-</html>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 <style type="text/css">
