@@ -2,19 +2,19 @@
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
-<iframe width="420" height="315" style="position: relative; left: 450px; bottom: 320px;"
+<iframe width="420" height="315" 
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
-<iframe width="420" height="315" style="position: relative; bottom: 300px;"
+<iframe width="420" height="315" 
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
-<iframe width="420" height="315" style="position: relative; left: 450px; bottom: 620px;"
+<iframe width="420" height="315" 
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
-<iframe width="420" height="315" style="position: relative; left: 225px; bottom: 600px;"
+<iframe width="420" height="315" 
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
