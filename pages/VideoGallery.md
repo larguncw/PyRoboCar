@@ -2,7 +2,7 @@
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
-<iframe width="420" height="315" style="position: relative; left: 750px; bottom: 93px;"
+<iframe width="420" height="315" style="position: relative; left: 450px; bottom: 200px;"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
@@ -10,11 +10,11 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
-<iframe width="420" height="315" style="position: relative; left: 750px; bottom: 93px;"
+<iframe width="420" height="315" style="position: relative; left: 450px; bottom: 200px;"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
-<iframe width="420" height="315" style="position: relative; left: 350px; bottom: 93px;"
+<iframe width="420" height="315" style="position: relative; left: 450px; bottom: 200px;"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
