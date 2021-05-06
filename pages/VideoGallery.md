@@ -6,7 +6,18 @@
   <h2 class="videoTitle">Mesopotamia</h2>
 </article>
 
-img {
+<article class="video">
+  <figure>
+    <a class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/paG__3FBLzI">
+    <img class="videoThumb" src="http://i1.ytimg.com/vi/paG__3FBLzI/mqdefault.jpg"></a>
+  </figure>
+  <h2 class="videoTitle">Mesopotamia</h2>
+</article>
+
+<html>
+<head>
+<style>
+  img {
   max-width: 100%;
   height: auto;
 }
@@ -77,6 +88,11 @@ Each can have thumbnail sizes that vary by 1px and are likely break your layout.
 .video img:hover, .video img:active, .video img:focus {
   opacity: 0.75;
 }
+
+</style>
+</head>
+<body>
+
 
 <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
