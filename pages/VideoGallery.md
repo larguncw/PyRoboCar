@@ -1,54 +1,163 @@
 <html>
 <head>
 <style>
+div.gallery {
+  border: 1px solid #ccc;
+}
 
-.video {
-    position: relative;
-    padding-bottom: 56.25%;
+div.gallery:hover {
+  border: 1px solid #777;
 }
-.video iframe {
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
     width: 100%;
-    height: 100%;
+  }
 }
-.video-layout {
-    max-width: 500px;
-    border: 1px solid green;
-}
-#vid-left {
-    float: left;
-    padding:5px;
-    width:33%;
-    box-sizing:border-box;
-}
-#vid-mid {
-    float: left;
-    padding:5px;
-    width:33%;
-    box-sizing:border-box;
-}
-#vid-right {
-    float: left;
-    padding:5px;
-    width:33%;
-    box-sizing:border-box;
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 </style>
 </head>
 <body>
 
-<div class="video-layout">
-<div class="video">
-<div id="vid-left">
-<iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" frameborder="0" allowfullscreen></iframe>
+<h2>Image Gallery</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha">
+      <img src="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha" alt="PyRoboCar" width="600" height="400">
+    </a>
+    <div class="desc">PyRoboCar</div>
+  </div>
 </div>
-<div id="vid-mid">
-<iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" frameborder="0" allowfullscreen></iframe>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha">
+      <img src="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha" alt="Tracks" width="600" height="400">
+    </a>
+    <div class="desc">PyRoboCar Labeled Lane Lines</div>
+  </div>
 </div>
-<div id="vid-right">
-<iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" frameborder="0" allowfullscreen></iframe>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100403170.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100403170.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">PyRoboCar Construction</div>
+  </div>
 </div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100952378.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100952378.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Building the PyRoboCar</div>
+  </div>
 </div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200206_101943082.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200206_101943082.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Building the PyRoboCar</div>
+  </div>
 </div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201012_095239980.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201012_095239980.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">The First Labeled Lane Lines</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_095124645.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_095124645.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Fixing Hardware</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_100222005.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_100222005.jpg" alt="Tracks" width="600" height="400">
+    </a>
+    <div class="desc">Fixing Labeled Lane Lines</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_101113596.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_101113596.jpg" alt="Tracks" width="600" height="400">
+    </a>
+    <div class="desc">Gathering Training Data</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/finished car 1.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/finished car 1.jpg" alt="Tracks" width="600" height="400">
+    </a>
+    <div class="desc">Our Finished PyRoboCar with Upgraded Camera</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/car_on_track.png">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/car_on_track.png" alt="PyRoboCar on Track" width="600" height="400" class="rotateimg90">
+    </a>
+    <div class="desc">PyRoboCar on the Track</div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+
+</body>
+</html>
 
 
 
