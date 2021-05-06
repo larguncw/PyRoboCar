@@ -67,8 +67,8 @@ div.desc {
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="https://github.com/larguncw/PyRoboCar/blob/main/pages/images/car_on_track.png">
-      <img src="https://github.com/larguncw/PyRoboCar/blob/main/pages/images/car_on_track.png" alt="PyRoboCar on Track" width="600" height="400" class="rotateimg90">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/car_on_track.png">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/car_on_track.png" alt="PyRoboCar on Track" width="600" height="400" class="rotateimg90">
     </a>
     <div class="desc">PyRoboCar on the Track</div>
   </div>
