@@ -1,11 +1,14 @@
-
 <div id="video-gallery">
-  <a href="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha" >
-      <img src="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha" />
+  <a href="https://www.youtube.com/watch?v=meBbDqAXago" data-poster="video-poster1.jpg" >
+      <img src="img/thumb1.jpg" />
+  </a>
+  <a href="https://vimeo.com/1084537" data-poster="video-poster2.jpg">
+      <img src="img/thumb2.jpg" />
   </a>
   ...
 </div>
 
+$('#video-gallery').lightGallery(); 
 
 <style type="text/css">
 #submit {
