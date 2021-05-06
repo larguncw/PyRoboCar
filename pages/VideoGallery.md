@@ -55,8 +55,8 @@ div.desc {
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha">
-      <img src="https://www.youtube.com/watch?v=kJzs-8Fz3pI&ab_channel=KrishnaOjha" alt="PyRoboCar" width="600" height="400">
+    <iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/qdIdPBIF6MU" frameborder="0" allowfullscreen></iframe> alt="PyRoboCar" width="600" height="400">
     </a>
     <div class="desc">PyRoboCar</div>
   </div>
