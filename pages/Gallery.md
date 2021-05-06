@@ -74,10 +74,10 @@ div.desc {
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100403170.jpg">
-      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100403170.jpg" alt="Mountains" width="600" height="400">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_095124645.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_095124645.jpg" alt="Mountains" width="600" height="400">
     </a>
-    <div class="desc">PyRoboCar Construction</div>
+    <div class="desc">Fixing Hardware</div>
   </div>
 </div>
 
@@ -110,10 +110,10 @@ div.desc {
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_095124645.jpg">
-      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_095124645.jpg" alt="Mountains" width="600" height="400">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100403170.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20200130_100403170.jpg" alt="Mountains" width="600" height="400">
     </a>
-    <div class="desc">Fixing Hardware</div>
+    <div class="desc">PyRoboCar Construction</div>
   </div>
 </div>
 
