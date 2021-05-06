@@ -1,3 +1,7 @@
+<html>
+<head>
+<style>
+
 .video {
     position: relative;
     padding-bottom: 56.25%;
@@ -28,6 +32,9 @@
     width:33%;
     box-sizing:border-box;
 }
+</style>
+</head>
+<body>
 
 <div class="video-layout">
 <div class="video">
