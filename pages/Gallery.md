@@ -127,6 +127,33 @@ div.desc {
   </div>
 </div>
 
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_100222005.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_100222005.jpg" alt="Tracks" width="600" height="400">
+    </a>
+    <div class="desc">PyRoboCar Labeled Lane Lines</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_101113596.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/IMG_20201021_101113596.jpg" alt="Tracks" width="600" height="400">
+    </a>
+    <div class="desc">PyRoboCar Labeled Lane Lines</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/finished car 1.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/finished car 1.jpg" alt="Tracks" width="600" height="400">
+    </a>
+    <div class="desc">PyRoboCar Labeled Lane Lines</div>
+  </div>
+</div>
+
 
 <div class="clearfix"></div>
 
