@@ -76,10 +76,10 @@ div.desc {
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_lights.jpg">
-      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    <a target="_blank" href="https://larguncw.github.io/PyRoboCar/pages/images/r5CwHJUNQjy8JNZcbJfMPw.jpg">
+      <img src="https://larguncw.github.io/PyRoboCar/pages/images/r5CwHJUNQjy8JNZcbJfMPw.jpg" alt="Tracks" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">PyRoboCar Labeled Lane Lines</div>
   </div>
 </div>
 
