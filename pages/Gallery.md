@@ -11,7 +11,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 300px;
+  width: 300;
   height: 720;
 }
 
