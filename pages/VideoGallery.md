@@ -1,15 +1,15 @@
 <iframe width="560" height="315" src="http://www.youtube.com/embed/jGJuCrxH_pU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="420" height="315" 
-src="https://youtu.be/Az-bu8otwlg">
+src="http://youtu.be/Az-bu8otwlg">
 </iframe>
 
 <iframe width="420" height="315" 
-src="https://youtu.be/9zAkSfzI590">
+src="http://youtu.be/9zAkSfzI590">
 </iframe>
 
 <iframe width="420" height="315" 
-src="https://youtu.be/olN60aGeTjg">
+src="http://youtu.be/olN60aGeTjg">
 </iframe>
 
 <style type="text/css">
