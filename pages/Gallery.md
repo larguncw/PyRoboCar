@@ -11,10 +11,10 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  max-width: 300;
+  max-width: 300px;
   width:  auto;
   height: auto;
-  max-height: 720;
+  max-height: 720px;
 }
 
 div.desc {
