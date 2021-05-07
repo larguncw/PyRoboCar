@@ -12,7 +12,7 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: 720;
+  max-height: 720;
 }
 
 div.desc {
