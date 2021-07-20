@@ -49,9 +49,9 @@
         - python3 -m pip install  tensorflow-2.3.0-cp37-none-linux_armv7l.whl
       - Restart the raspberry pi
       - Type the following in the command line to check that the correct version of Tensorflow has been installed
-        - python3
-        - import tensorflow
-        - tensorflow.__version__
+        - ``python3``
+        - ``import tensorflow``
+        - ``tensorflow.__version__``
        - This should output 2.3.0.
        - For future reference, if you want a version of Tensorflow different from 2.3, you can view and download releases here: https://github.com/lhelontra/tensorflow-on-arm/releases
      - Next update the path of your .h5 file on RaspberryPi in the end_to_end_lane_follower.py, then run this Python: 
