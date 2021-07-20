@@ -34,7 +34,7 @@
     - You must manually place the file in the model_path variable location referenced in the end-to-end-lane-follower.py file, which by default is /home/pi/DeepPiCar/models/lane_navigation/data/model_result/.  I don't recommend changing that
     - In order to test/run our model, we need to update the version of Tensorflow on our Raspberry Pi from 1 to 2. Instructions can be found at this link. Follow all of the instructions, except from the part regarding virtual environments. 
       - Check the tensorflow version on command line:
-        - 'import tensorflow as tf; print(tf.__version__)'
+        - ``'import tensorflow as tf; print(tf.__version__)'``
         - If you do not have tensorflow 2, continue to the next part  
       - Run these commands in the command line
         - sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev
