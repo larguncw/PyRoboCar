@@ -54,7 +54,7 @@
         - tensorflow.__version__
        - This should output 2.3.0.
        - For future reference, if you want a version of Tensorflow different from 2.3, you can view and download releases here: https://github.com/lhelontra/tensorflow-on-arm/releases
-     - Next run this Python code on the PiCar: 
+     - Next update the path of your .h5 file on RaspberryPi in the end_to_end_lane_follower.py, then run this Python: 
      - ![](images/sec4image3.PNG)
 
 <style type="text/css">
