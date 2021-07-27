@@ -126,7 +126,8 @@
      - import picar
      - picar.setup()
      - picar.front_wheels.test()
-       - You should see the front wheels progressively turn left and right at different angles. If the front wheels are not aligned to the middle, disassemble them and readjust.
+       - You should see the front wheels repeatedly turn left, straight and right. If the front wheels are not aligned to the middle, disassemble them and readjust.
+       - If you need to aligned the wheels, run the front wheel tests again after the front wheels are removed, and hit Ctrl+c when the steering motor turns straight to the front. Then install the wheels back.
      - picar.back_wheels.test()
        - You should see the back wheels accelerate forward and then backwards.
 <style type="text/css">
