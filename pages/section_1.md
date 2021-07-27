@@ -126,7 +126,7 @@
      - import picar
      - picar.setup()
      - picar.front_wheels.test()
-       - You should see the front wheels progressively turn left and right at different angles.
+       - You should see the front wheels progressively turn left and right at different angles. If the front wheels are not aligned to the middle, disassemble them and readjust.
      - picar.back_wheels.test()
        - You should see the back wheels accelerate forward and then backwards.
 <style type="text/css">
