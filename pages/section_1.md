@@ -121,7 +121,7 @@
      - git clone https://github.com/dctian/SunFounder_PiCar-V.git
      - cd SunFounder_PiCar-V
      - sudo ./install_dependencies
-  * **PyCar Wheel Test**
+  * **PiCar Wheel Test**
      - pi@raspberrypi:~/SunFounder_PiCar/picar $ python3
      - import picar
      - picar.setup()
