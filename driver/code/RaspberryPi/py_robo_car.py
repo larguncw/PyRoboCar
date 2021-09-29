@@ -8,7 +8,7 @@ from objects_on_road_processor import ObjectsOnRoadProcessor
 _SHOW_IMAGE = True
 
 
-class DeepPiCar(object):
+class PyRoboCar(object):
 
     __INITIAL_SPEED = 0
     __SCREEN_WIDTH = 320
@@ -16,7 +16,7 @@ class DeepPiCar(object):
 
     def __init__(self):
         """ Init camera and wheels"""
-        logging.info('Creating a DeepPiCar...')
+        logging.info('Creating a PyRoboCar...')
 
         picar.setup()
 
@@ -52,7 +52,7 @@ class DeepPiCar(object):
         self.video_lane = self.create_video_recorder('../data/tmp/car_video_lane%s.avi' % datestr)
         self.video_objs = self.create_video_recorder('../data/tmp/car_video_objs%s.avi' % datestr)
 
-        logging.info('Created a DeepPiCar')
+        logging.info('Created a PyRoboCar')
 
     def create_video_recorder(self, path):
         return cv2.VideoWriter(path, self.fourcc, 20.0, (self.__SCREEN_WIDTH, self.__SCREEN_HEIGHT))
@@ -126,7 +126,7 @@ def show_image(title, frame, show=_SHOW_IMAGE):
 
 
 def main():
-    with DeepPiCar() as car:
+    with PyRoboCar() as car:
         car.drive(40)
 
 

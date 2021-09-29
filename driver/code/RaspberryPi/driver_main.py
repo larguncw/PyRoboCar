@@ -1,4 +1,4 @@
-from deep_pi_car import DeepPiCar
+from py_robo_car import PyRoboCar
 import logging
 import sys
 
@@ -6,7 +6,7 @@ def main():
     # print system info
     logging.info('Starting DeepPiCar, system info: ' + sys.version)
     
-    with DeepPiCar() as car:
+    with PyRoboCar() as car:
         car.drive(40)
     
 if __name__ == '__main__':
