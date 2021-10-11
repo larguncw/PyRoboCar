@@ -56,6 +56,18 @@
        - For future reference, if you want a version of Tensorflow different from 2.3, you can view and download releases here: https://github.com/lhelontra/tensorflow-on-arm/releases
      - Next update the path of your .h5 file on RaspberryPi in the end_to_end_lane_follower.py, then run deep_pi_car.py: 
      - ![](images/sec4image3.PNG)
+* **Test if the car will go 100 % straight when the steering angle is set to 90**
+	- If your car is turning slightly when it should be going straight or if it is cutting corners, it may be useful to check if the steering angle offset is causing the issue.
+	-In the file "end_to_end_lane_follower.py", change the following code.
+		- ``self.curr_steering_angle = self.compute_steering_angle(frame)``
+		- to 
+		- ``self.curr_steering_angle = 90``
+	- This hard codes the steering angle of the car to 90 degrees, so the car should travel in a straight line.
+	- Run py_robo_car.py and see if the car runs in a straight line.
+	- If it doesn't, make the following changes to the py_robo_car.py file:
+		- ``self.front_wheels.turning_offset = ** #calibrate servo to center``
+		- Experiment and change the value ** to a new offset until the car is traveling straighter.  
+	- While this change in steering offset may not completely fix the issue, it should improve the performance of the autonomous lane keeping.
 
 <style type="text/css">
 #submit {
