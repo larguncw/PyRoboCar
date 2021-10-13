@@ -122,7 +122,7 @@
      - cd SunFounder_PiCar-V
      - sudo ./install_dependencies
   * **PiCar Wheel Test**
-     - pi@raspberrypi:~/SunFounder_PiCar/picar $ python3
+     - pi@raspberrypi: cd ~/SunFounder_PiCar/picar $ python3
      - import picar
      - picar.setup()
      - picar.front_wheels.test()
