@@ -24,10 +24,10 @@
 
  * **Installing TensorFlow**
      - cd
-     - pip3 install setuptools --upgrade
+     - pip3 install setuptools - -upgrade
      - sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev
-     - python3 -m pip install keras_applications==1.0.8 --no-deps
-     - python3 -m pip install keras_preprocessing==1.1.0 --no-deps
+     - python3 -m pip install keras_applications==1.0.8 - -no-deps
+     - python3 -m pip install keras_preprocessing==1.1.0 - -no-deps
      - python3 -m pip install h5py==2.9.0
      - sudo apt-get install -y openmpi-bin libopenmpi-dev
      - sudo apt-get install -y libatlas-base-dev
@@ -37,7 +37,7 @@
       - pip3 install keras==2.3.1
   * **Installing Edge TPU Drivers**
      - cd
-     - wget https://dl.google.com/coral/edgetpu_api/edgetpu_api_latest.tar.gz -O edgetpu_api.tar.gz --trust-server-names
+     - wget https://dl.google.com/coral/edgetpu_api/edgetpu_api_latest.tar.gz -O edgetpu_api.tar.gz - -trust-server-names
      - tar xzf edgetpu_api.tar.gz
      - cd edgetpu_api/
      - sudo su root
