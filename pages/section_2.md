@@ -56,7 +56,7 @@
        - Y
      - sudo reboot now
   * **Run Live Object Detection**
-     - cd ~/DeepPiCar/models/object_detection/
+     - cd ~/PyRoboCar/models/object_detection/
      - python3 code/coco_object_detection.py
      - ![](images/sec2image3.PNG)
 
