@@ -17,7 +17,7 @@
        - python3 -c "import matplotlib"
        - cd
        - git clone https://github.com/dctian/DeepPiCar.git
-       - cd DeepPiCar/driver/code
+       - cd PyRoboCar/driver/code/RaspberryPi
        - python3 opencv_test.py
      - Here you should see output from your PiCar camera
      - ![](images/sec2image1.PNG)
