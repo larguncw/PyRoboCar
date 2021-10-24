@@ -19,12 +19,18 @@
       - If the steering angle lines do not follow the lane lines (e.g. they jump all over the screen) then most likely we need to tune your color mask to your particular track
 - **Color tuning**
         - Adjust the numerical HSV mask values in the arrays in the below code block
-        - ![](images/sec3image4.PNG)
-        - Note that there are 2 masks used because our yellow tape contains hues in two different ranges.  If you are not using yellow tape (or if your lighting is different) you may only need one mask
-        - ![](images/sec3image5.PNG)
-        - Use the feed displaying the edges of your color mask to determine how well your color mask is isolating your lane lines.  Mine looks like this:
-        - ![](images/sec3image6.PNG)
-      - This is an iterative process. Keep repeating and adjusting your color mask until you are happy with the results. 
+        
+- ![](images/sec3image4.PNG)
+        
+	- Note that there are 2 masks used because our yellow tape contains hues in two different ranges.  If you are not using yellow tape (or if your lighting is different) you may only need one mask
+        
+- ![](images/sec3image5.PNG)
+        
+	- Use the feed displaying the edges of your color mask to determine how well your color mask is isolating your lane lines.  Mine looks like this:
+        
+- ![](images/sec3image6.PNG)
+      
+- This is an iterative process. Keep repeating and adjusting your color mask until you are happy with the results. 
   * **Fixing a PyRoboCar Bug**
     - If you are using Raspberry Pi 4, your hardware is not recognized/supported by SunFounder’s code, so follow there instruction here and add your Raspberry Pi version to the SunFounder’s code in PCA9685.py:
       -  This file could be in different places, please do a search:
