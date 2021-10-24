@@ -18,17 +18,18 @@
       - Your video should pop up in two new windows.  One window should show steering angle line overlays (hopefully) following the lane lines.  The other video should show the edges of your color mask
       - If the steering angle lines do not follow the lane lines (e.g. they jump all over the screen) then most likely we need to tune your color mask to your particular track
 - **Color tuning**
+
         - Adjust the numerical HSV mask values in the arrays in the below code block
         
-- ![](images/sec3image4.PNG)
+  ![](images/sec3image4.PNG)
         
 	- Note that there are 2 masks used because our yellow tape contains hues in two different ranges.  If you are not using yellow tape (or if your lighting is different) you may only need one mask
         
-- ![](images/sec3image5.PNG)
+  ![](images/sec3image5.PNG)
         
 	- Use the feed displaying the edges of your color mask to determine how well your color mask is isolating your lane lines.  Mine looks like this:
         
-- ![](images/sec3image6.PNG)
+  ![](images/sec3image6.PNG)
       
 - This is an iterative process. Keep repeating and adjusting your color mask until you are happy with the results. 
   * **Fixing a PyRoboCar Bug**
