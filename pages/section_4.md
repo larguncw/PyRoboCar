@@ -1,6 +1,6 @@
 ## Section 4 - Autonomous Lane Keeping
   * **Producing PyRoboCar Video Content**
-    - Use the record-video.py script previously discussed in section 3 to record a video moving along the designated track
+    - Use the record_video.py script previously discussed in section 3 to record a video moving along the designated track
       - You will need to move the picar by hand.  Try to keep the picar as centered as possible on the track while moving.  This will form the training data that the future model is based on
     - Copy the video produced by the above script to the ~/DeepPiCar/models/lane_navigation/data/images directory.
       - cp ~/DeepPiCar/driver/code/[track video name] ~/DeepPiCar/models/lane_navigation/data/images/[desired track video name].avi
