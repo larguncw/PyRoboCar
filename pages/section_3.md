@@ -18,8 +18,7 @@
       - Your video should pop up in two new windows.  One window should show steering angle line overlays (hopefully) following the lane lines.  The other video should show the edges of your color mask
       - If the steering angle lines do not follow the lane lines (e.g. they jump all over the screen) then most likely we need to tune your color mask to your particular track
 - **Color tuning**
-
-        - Adjust the numerical HSV mask values in the arrays in the below code block
+	- Adjust the numerical HSV mask values in the arrays in the below code block
         
   ![](images/sec3image4.PNG)
         
