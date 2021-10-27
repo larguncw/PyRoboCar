@@ -58,11 +58,12 @@
        - Y
      - sudo reboot now
   * **Run Live Object Detection**
-     - cd /usr/local/lib/python3.7/dist-packages/edgetpu/swig
-     - git clone https://github.com/larguncw/PyRoboCar/tree/main/newdata
+     - cd /usr/local/lib/python3.7/dist-packages/edgetpu/swig*
+     - git clone https://github.com/larguncw/PyRoboCar/tree/main/newdata*
      - cd ~/PyRoboCar/driver/code/RaspberryPi/
      - python3 coco_object_detection.py
      - ![](images/sec2image3.PNG)
+* Code is not working but it is being fixed.
 
 <style type="text/css">
 #submit {
