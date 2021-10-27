@@ -2,7 +2,7 @@
   * **Install OpenCV and Related Libraries**
     - Enter the following command into the Pi terminal
       - (make sure the date time is correct first, before running the next command)
-      - Due to the way that the site formats hyphens, when you see two dashes (- -), type two dashes without the space in the terminal. On the website, two dashes together without space (--) looks like a long singular dash instead of two seperate dashes
+      - Due to the way that the site formats hyphens, when you see two dashes (- -), type two dashes without the space in the terminal. On the website, two dashes together without space (--) looks like a long singular dash instead of two seperate dashes. The code with the awkward dashes will be highlighted.
       - sudo apt-get install libhdf5-dev -y && sudo apt-get install libhdf5-serial-dev -y && sudo apt-get install libatlas-base-dev -y && sudo apt-get install libjasper-dev -y && sudo apt-get install libqtgui4 -y && sudo apt-get install libqt4-test -y
       - ``pip3 install --upgrade setuptools``
       - pip3 install scikit-build
@@ -24,10 +24,10 @@
 
  * **Installing TensorFlow**
      - cd
-     - pip3 install setuptools - -upgrade
+     - ``pip3 install setuptools --upgrade``
      - sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev
-     - python3 -m pip install keras_applications==1.0.8 - -no-deps
-     - python3 -m pip install keras_preprocessing==1.1.0 - -no-deps
+     - ``python3 -m pip install keras_applications==1.0.8 --no-deps``
+     - ``python3 -m pip install keras_preprocessing==1.1.0 --no-deps``
      - python3 -m pip install h5py==2.9.0
      - sudo apt-get install -y openmpi-bin libopenmpi-dev
      - sudo apt-get install -y libatlas-base-dev
@@ -37,7 +37,7 @@
       - pip3 install keras==2.3.1
   * **Installing Edge TPU Drivers**
      - cd
-     - wget https://dl.google.com/coral/edgetpu_api/edgetpu_api_latest.tar.gz -O edgetpu_api.tar.gz - -trust-server-names
+     - ``wget https://dl.google.com/coral/edgetpu_api/edgetpu_api_latest.tar.gz -O edgetpu_api.tar.gz --trust-server-names``
      - tar xzf edgetpu_api.tar.gz
      - cd edgetpu_api/
      - sudo su root
