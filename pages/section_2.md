@@ -51,6 +51,8 @@
          - HOST_GNU_TYPE=arm-linux-gnueabihf
          - Ctrl + X to exit. Save the changes. The new version of install.sh should be:
          - ![](images/sec2image2.PNG)
+       - Fix for Python3.7 or newer:
+         - ???
      - sudo bash ./install.sh
        - Would you like to enable the maximum operating frequency?
        - Y
