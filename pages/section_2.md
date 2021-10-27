@@ -4,7 +4,7 @@
       - (make sure the date time is correct first, before running the next command)
       - Due to the way that the site formats hyphens, when you see two dashes (- -), type two dashes without the space in the terminal. On the website, two dashes together without space (--) looks like a long singular dash instead of two seperate dashes
       - sudo apt-get install libhdf5-dev -y && sudo apt-get install libhdf5-serial-dev -y && sudo apt-get install libatlas-base-dev -y && sudo apt-get install libjasper-dev -y && sudo apt-get install libqtgui4 -y && sudo apt-get install libqt4-test -y
-      - pip3 install - -upgrade setuptools
+      - ``pip3 install --upgrade setuptools``
       - pip3 install scikit-build
       - pip3 install opencv-python
           - If this doesn’t work you may need to add scikit-build to PATH then try: 
