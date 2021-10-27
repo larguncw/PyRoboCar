@@ -56,8 +56,8 @@
        - Y
      - sudo reboot now
   * **Run Live Object Detection**
-     - cd ~/PyRoboCar/models/object_detection/
-     - python3 code/coco_object_detection.py
+     - cd ~/PyRoboCar/driver/code/RaspberryPi/
+     - python3 coco_object_detection.py
      - ![](images/sec2image3.PNG)
 
 <style type="text/css">
