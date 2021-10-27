@@ -58,7 +58,7 @@
        - Y
      - sudo reboot now
   * **Run Live Object Detection**
-     - cd
+     - cd /usr/local/lib/python3.7/dist-packages/edgetpu/swig
      - git clone https://github.com/larguncw/PyRoboCar/tree/main/newdata
      - cd ~/PyRoboCar/driver/code/RaspberryPi/
      - python3 coco_object_detection.py
