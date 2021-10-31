@@ -1,17 +1,21 @@
+
 ## Section 4 - Autonomous Lane Keeping
   * **Producing PyRoboCar Video Content**
     - Use the record_video.py script previously discussed in section 3 to record a video moving along the designated track
-      - You will need to move the picar by hand.  Try to keep the picar as centered as possible on the track while moving.  This will form the training data that the future model is based on
-    - Copy the video produced by the above script to the ~/DeepPiCar/models/lane_navigation/data/images directory.
-      - cp ~/DeepPiCar/driver/code/[track video name] ~/DeepPiCar/models/lane_navigation/data/images/[desired track video name].avi
+      - You will need to move the PyRoboCar by hand.  Try to keep the PyRoboCar as centered as possible on the track while moving.  This will form the training data that the future model is based on
+    - Create a directory to store your output videos and images in.
+	    - cd ~/PyRoboCar/driver/code/RaspberryPi/
+	    - mkdir images
+    - Copy the video produced by record_video.py to your new images directory.
+      - cp ~/PyRoboCar/driver/code/RaspberryPi/[track video name] ~/PyRoboCar/driver/code/RaspberryPi/images/[desired track video name].avi
       - Meanwhile, if you see videos/image do not belong to you in this folder, delete them
     - Employ the save_training_data.py script to mark the image number and the steering angle of each image
-      - CD to /DeepPiCar/driver/code folder
-      - python3 save_training_data.py ~/DeepPiCar/models/lane_navigation/data/images/[track video name without “.avi”]
+      - cd ~/PyRoboCar/driver/code/RaspberryPi/
+      - python3 save_training_data.py ~/PyRoboCar/driver/code/RaspberryPi/images/[track video name without “.avi”]
       - Left turn: turning angles should be <90
       - Right turn: turning angles should be > 90
     - Create a new folder in your Google Drive named ‘images’ and place the resulting images from the above in that folder
-    - In Part 5 of the DeepPiCar instructions, click on the end-to-end deep learning lane navigation notebook
+    - In Part 5 of the PyRoboCar instructions, click on the end-to-end deep learning lane navigation notebook
     - Click on the box that says “Open in Colab” in the top center of the page
     - Click on File>Save a copy in Drive
     - Open the copy of end_to_end_lane_navigation.ipynb now in your Google Drive
@@ -29,9 +33,9 @@
       - Your Google Drive should now be linked to Colab
     - You can now run all of Google Colab’s code blocks similarly to a Jupyter Notebook
     - Run all code blocks.  The model training block will likely take a few hours.  Make sure your computer doesn’t disconnect from Colab during this time
-  * **Moving Trained Deep Learning Model to PiCar**
+  * **Moving Trained Deep Learning Model to PyRoboCar**
     - The end_to_end_lane_navigation.ipynb outputs the lane_navigation_model.h5 file into your designated Google Drive output directory
-    - You must manually place the file in the model_path variable location referenced in the end-to-end-lane-follower.py file, which by default is /home/pi/DeepPiCar/models/lane_navigation/data/model_result/.  I don't recommend changing that
+    - You must manually place the file in the model_path variable location referenced in the end-to-end-lane-follower.py file, which by default is /home/pi/PyRoboCar/driver/code/RaspberryPi/.  You may also create a directory to place your model in, just make sure to update the end-to-end-lane-follower.py file so that it references the location of the model.
     - In order to test/run our model, we need to update the version of Tensorflow on our Raspberry Pi from 1 to 2. Instructions can be found at this link. Follow all of the instructions, except from the part regarding virtual environments. 
       - Check the tensorflow version on command line:
         - ``'import tensorflow as tf; print(tf.__version__)'``
@@ -54,7 +58,7 @@
         - ``tensorflow.__version__``
        - This should output 2.3.0.
        - For future reference, if you want a version of Tensorflow different from 2.3, you can view and download releases here: https://github.com/lhelontra/tensorflow-on-arm/releases
-     - Next update the path of your .h5 file on RaspberryPi in the end_to_end_lane_follower.py, then run deep_pi_car.py: 
+     - Next update the path of your .h5 file on RaspberryPi in the end_to_end_lane_follower.py, then run py_robo_car.py: 
      - ![](images/sec4image3.PNG)
 * **Test if the car will go 100 % straight when the steering angle is set to 90**
 	- If your car is turning slightly when it should be going straight or if it is cutting corners, it may be useful to check if the steering angle offset is causing the issue.
