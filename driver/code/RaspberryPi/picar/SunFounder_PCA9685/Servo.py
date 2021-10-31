@@ -29,7 +29,7 @@ class Servo(object):
 		if channel<0 or channel > 16:
 			raise ValueError("Servo channel \"{0}\" is not in (0, 15).".format(channel))
 		if self._DEBUG:
-			print self._DEBUG_INFO, "Debug on"
+			print(self._DEBUG_INFO, "Debug on")
 		self.channel = channel
 		self.offset = offset
 		self.lock = lock

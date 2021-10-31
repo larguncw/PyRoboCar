@@ -112,17 +112,12 @@
      - alias pip=pip3
      - alias sudo='sudo '
      - cd
-     - git clone https://github.com/dctian/SunFounder_PiCar.git
-     - cd ~/SunFounder_PiCar/picar/
-     - git clone https://github.com/dctian/SunFounder_PCA9685.git
-     - cd ~/SunFounder_PiCar/
+     - git clone https://github.com/larguncw/PyRoboCar.git
+     - cd ~/PyRoboCar/driver/code/RaspberryPi
      - sudo python setup.py install
-     - cd
-     - git clone https://github.com/dctian/SunFounder_PiCar-V.git
-     - cd SunFounder_PiCar-V
      - sudo ./install_dependencies
   * **PiCar Wheel Test**
-     - pi@raspberrypi: cd ~/SunFounder_PiCar/picar $ python3
+     - pi@raspberrypi: cd ~/PyRoboCar/driver/code/RaspberryPi/ $ python3
      - import picar
      - picar.setup()
      - picar.front_wheels.test()
