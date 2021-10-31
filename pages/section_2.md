@@ -15,8 +15,6 @@
        - python3 -c "import cv2"
        - python3 -c "import numpy"
        - python3 -c "import matplotlib"
-       - cd
-       - git clone https://github.com/dctian/DeepPiCar.git
        - cd PyRoboCar/driver/code/RaspberryPi
        - python3 opencv_test.py
      - Here you should see output from your PiCar camera
