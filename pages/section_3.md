@@ -2,7 +2,7 @@
 ## Section 3 - Lane Keeping
   * **Running CV2 Video**
     - To record a video on your raspberry pi, navigate to ~/PyRoboCar/driver/code/RaspberryPi
-      - Run the script with the following command: “python3 record_video.py”
+      - Run the script with the following command: “python3 record-video.py”
       - ![](images/sec3image2.PNG)
         - The video will begin recording.  You should see a video screen pop up that shows the recording in real time.
       - Interrupt the Bash prompt by pressing CTRL-C when you are finished.
